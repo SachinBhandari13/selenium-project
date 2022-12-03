@@ -26,6 +26,7 @@ public class xPath {
 
 		XSSFWorkbook wb = new XSSFWorkbook();   
 //		added new comment 
+		//added another comment
 		XSSFSheet sheet = wb.createSheet("amazon price");
 		
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Paapi Papita\\Documents\\workspace-spring-tool-suite-4-4.9.0.RELEASE\\chromedriver107.exe");
@@ -36,7 +37,7 @@ public class xPath {
 
 		Thread.sleep(2000);
 		//product and price name list
-		
+				
 		//mapped product with price
 		Map<String, String> map = new HashMap<>();  //create map empty object
 		
